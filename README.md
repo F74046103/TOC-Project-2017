@@ -50,12 +50,22 @@ The initial state is set to `user`.
 Every time `user` state is triggered to `advance` to another state, it will `go_back` to `user` state after the bot replies corresponding message.
 
 * user
-	* Input: "go to state1"
-		* Reply: "I'm entering state1"
+	* Input: "我想去美國玩"
+		* replies corresponding text
 
-	* Input: "go to state2"
-		* Reply: "I'm entering state2"
+	* Input: "我想去韓國玩"
+		* replies corresponding text
+
+	* Input: "我想看美國國旗"
+		* replies corresponding photo
+
+	* Input: "我想學英文的問好"
+		* replies corresponding audio
+
+	* Input: "我想看韓國國旗"
+		* replies corresponding photo
+
+	* Input: "我想學韓文的問好"
+		* replies corresponding audio
 
 
-## Author
-[Lee-W](https://github.com/Lee-W)
